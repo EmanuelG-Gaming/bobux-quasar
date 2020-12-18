@@ -68,3 +68,5 @@ bobux-quasar.drawCell = false;
 bobux-quasar.hitSize = 25;
 bobux-quasar.weapons.add(greedBarrel);
 bobux-quasar.mechLegColor = Color.valueOf("ffffff")
+
+});
