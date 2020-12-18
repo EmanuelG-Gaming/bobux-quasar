@@ -55,7 +55,10 @@ greedBarrel.shotSound = Sounds.bobuxer;
 
 const bobux-quasar = extendContent(UnitType, "bobux-quasar", {});
 bobux-quasar.constructor = () => extend(MechUnit, {
-}
+  killed(){
+    this.super$killed();
+    print("finnaly bobux quasar got kicked for rickrolling me");
+  }
 });
 
 // More Bobux
